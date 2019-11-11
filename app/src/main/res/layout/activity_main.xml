@@ -31,7 +31,6 @@
             android:id="@+id/msgError"
             android:visibility="gone"
             android:gravity="center"
-            android:text="Lo sentimos,Ha ocurrido un problema."
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
