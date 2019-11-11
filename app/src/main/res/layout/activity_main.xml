@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SearchView
+            android:id="@+id/searchViewProduct"
+            android:layout_margin="20dp"
+            android:queryHint="Buscar un producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </SearchView>
+
+        <android.support.v7.widget.RecyclerView
+            android:padding="5dp"
+            android:focusable="true"
+            android:id="@+id/ReciclerProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:id="@+id/msgError"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="Lo sentimos,Ha ocurrido un problema."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:visibility="gone"
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

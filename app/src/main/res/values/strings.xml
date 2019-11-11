@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MercadolibreChallenge</string>
+    <string name="price">$ %1$,.0f</string>
+    <string name="state_quantity_sold">%1$s - %2$d vendidos</string>
+    <string name="state_product">Estado: %1$s</string>
+    <string name="accept_mp">MercadoPago: %1$s</string>
+    <string name="seller_status">Vendedor: %1$s</string>
+    <string name="msg_error_server">Lo sentimos, ha ocurrido un error</string>
+    <string name="msg_error">Lo sentimos, no se han encontrado resultados</string>
+</resources>

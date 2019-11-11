@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ProductDetail">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            android:padding="5dp"
+            android:id="@+id/cv"
+            >
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/imgProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/textStateAndQuantitySold"
+            android:padding="5dp"
+            android:text="nuevo - 333 vendidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/TitleProduct"
+            android:padding="5dp"
+            android:text="Hidrolavadora karcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/Price"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="$9.179"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
